@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DotGothic16", sans-serif;
+    background-color: rgb(240, 240, 240);
 }
 
 /* Navbar */
@@ -91,10 +92,11 @@
     font-size: 17px;
 }
 
-/* Card Styles - Update */
+/* Card Styles */
 .card {
     transition: transform 0.3s ease;
     box-shadow: 0 10px 20px rgba(36, 25, 243, 0.1);
+    padding: 10px;
 }
 
 .card:hover {
