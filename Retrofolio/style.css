@@ -33,23 +33,6 @@
 .nav-element a {
     text-decoration: none;
     color: black;
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-.nav-element a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #2419F3;
-    transition: width 0.3s ease;
-}
-
-.nav-element a:hover::after {
-    width: 100%;
 }
 
 /* Hero Section */
