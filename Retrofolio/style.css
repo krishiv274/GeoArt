@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DotGothic16", sans-serif;
-    background-color: rgb(240, 240, 240);
 }
 
 /* Navbar */
@@ -136,7 +135,7 @@
     padding: 3px;
 }
 
-/* Button */
+/* Featured Button */
 .btn {
     padding: 15px 23px;
     background-color: #2419F3;
@@ -160,6 +159,7 @@
     width: 95vw;
     box-shadow: 0 20px 40px rgba(255, 87, 51, 0.15);
     transition: transform 0.5s ease;
+    border-radius: 5px;
 }
 
 .featured-img:hover {
@@ -369,6 +369,10 @@
 @media screen and (max-width: 480px) {
     .hero-text h1 {
         font-size: 40px;
+    }
+
+    .nav-element {
+        font-size: 20px;
     }
 
     .about-me {
